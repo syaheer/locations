@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Locations</string>
+    <string name="google_android_map_api_key">AIzaSyCUnsSsPuN5IOjuVJ4JCrDy-wmeWnDfQEI</string>
+    <string name="arrival_time">Arrival Time:</string>
+    <string name="longitude">Longitude: </string>
+    <string name="latitude">Latitude: </string>
+    <string name="hour"> hour </string>
+    <string name="minutes"> minutes </string>
+    <string name="sort_by_arrival_time">Sort by arrival time</string>
+    <string name="sort_by_distance">Sort by distance</string>
+    <string name="sort_by_name">Sort by name</string>
+</resources>
