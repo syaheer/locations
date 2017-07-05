@@ -95,7 +95,9 @@ public class MapActivity extends AppCompatActivity {
                 LatLng locationLatLng = new LatLng(location.getLatitude(), location.getLongitude());
                 mGoogleMap = googleMap;
                 mGoogleMap.addMarker(new MarkerOptions().position(locationLatLng).title(location.getName()));
-                mGoogleMap.moveCamera(CameraUpdateFactory.newLatLng(locationLatLng));
+                mGoogleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(locationLatLng, 15));
+                mGoogleMap.animateCamera(CameraUpdateFactory.zoomTo(15), 2000, null);
+                mapView.onResume();
             }
         });
     }
